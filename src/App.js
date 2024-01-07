@@ -7,7 +7,7 @@ function App() {
   const[location, setLocation] = useState('')
 
   // eslint-disable-next-line no-template-curly-in-string
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=0460769ed13a37790092dffdc0318487`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=0460769ed13a37790092dffdc0318487`
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
     axios.get(url).then((response) =>{
