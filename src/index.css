@@ -30,7 +30,7 @@ h1{
 }
 .app:before{
   content: '';
-  background-image: url(./assets/picture2.avif);
+  background-image: url(./assets/picture1.jpg);
   background-repeat: none;
 
   position: absolute;
